@@ -1,0 +1,11 @@
+Hash with separate chaining
+0 --> n
+1
+2 --> plus
+3
+4
+5 --> s --> 100 --> i
+6
+7 --> a
+8 --> 0 --> b
+9 --> 1
