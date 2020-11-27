@@ -1,0 +1,39 @@
+program:= "prog("decllist""){"cmpstmt"}"
+
+decllist:=declaration|declaration "," decllist
+
+forstmt:= "for(" declaration ":" array"){"stmt"}"
+
+declaration:= type IDENTIFIER
+
+type1:="bool" |"char"|"int"|"float"
+
+arraydecl:="array["nr"]:"type1
+
+type:=type1|arraydecl
+
+cmpdstmt:="{"stmtlist"}"
+
+stmt:=simplstmt|structstmt
+
+simplstmt:=assignstmt | iostmt
+
+assignstmt:=IDENTIFIER " " expression
+
+expression:=expression "+" term| term
+
+term:=term "*" factor|factor
+
+factor:="("expression")" |IDENTIFIERR
+
+iostmt:=( "read" | "write" ) "("IDENTIFIER")"
+
+structstmt:=cmpdstmt | ifstmt |whilestmt
+
+whilestmt:= "while" condition"{" stmt "}"
+
+condition:= expression RELATION expression
+
+RELATION:= SIMPLERELATION | "!=" SIMPLERELATION
+
+SIMPLERELATION:= "<" |">"| "=" | "<=" | ">="

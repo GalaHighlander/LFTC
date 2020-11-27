@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\Automata.cpp(78,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\Automata.cpp(79,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\Automata.cpp(95,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\main.cpp(8,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\main.cpp(14,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gala\Desktop\LFTC\lab 4\Project1\main.cpp(19,16): warning C4018: '<': signed/unsigned mismatch
+  Project1.vcxproj -> C:\Users\Gala\Desktop\LFTC\lab 4\Project1\Debug\Project1.exe

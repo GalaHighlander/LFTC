@@ -7,10 +7,6 @@
 #include "st.cpp"
 using namespace std;
 
-void createPIF(string token, string pif) {
-
-
-}
 
 
 int main() {
@@ -19,7 +15,7 @@ int main() {
     ifstream myfile, token;
     fstream pif;
     vector<string> tokenArray;
-    myfile.open("p1.txt");
+    myfile.open("perr.txt");
     token.open("token.txt");
     pif.open("pif.txt", ios::in | ios::out | ios::app);
     int ok;
