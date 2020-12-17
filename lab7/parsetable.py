@@ -5,6 +5,12 @@ Created on Thu Nov 26 19:13:53 2020
 @author: ficau
 """
 
+"""
+looks great!
+
+Ciprian
+"""
+
 class ParseTable:
     
     def __init__(self):
