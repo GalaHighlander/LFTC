@@ -6,7 +6,7 @@ Created on Fri Nov 20 12:29:00 2020
 """
 
 """
-use a you switch-case on the main While
+use a switch-case on the main While
 in rest looks good!
 Ciprian
 """
