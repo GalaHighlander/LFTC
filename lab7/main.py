@@ -5,6 +5,11 @@ Created on Fri Nov 20 12:29:00 2020
 @author: ficau
 """
 
+"""
+use a you switch-case on the main While
+in rest looks good!
+Ciprian
+"""
 from grammar import Grammar
 from parser2 import Parser
 from parserout import ParserOutput
