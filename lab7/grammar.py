@@ -4,6 +4,15 @@ Created on Fri Nov 20 12:07:29 2020
 
 @author: ficau
 """
+
+
+""""
+the atribbutes could have better notations (N->Non-terminals)
+in rest looks good!
+
+Ciprian
+""""
+
 class Grammar:
     def __init__(self, N,E,P,S):
         self.N = N # Non-terminals
