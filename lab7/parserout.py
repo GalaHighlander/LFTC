@@ -4,6 +4,12 @@ Created on Fri Dec  4 12:38:13 2020
 
 @author: ficau
 """
+
+""""
+the variables could have better notations (rhs, lhs)
+in rest looks good!
+Ciprian
+""""
 from functools import reduce
 
 class ParserOutput:
