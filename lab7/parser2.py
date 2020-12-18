@@ -207,6 +207,8 @@ class Parser:
     def init_stacks(self, symbols):
         self.alpha.clear()
         self.alpha.append("$")
+       #you could use just for symbol in symbols
+       #Ciprian
         for symbol in symbols[::-1]:
             self.alpha.append(symbol)
         self.beta.clear()
